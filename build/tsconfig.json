@@ -1,27 +1,30 @@
-{
-	"compilerOptions": {
-		"outDir": "."
-    "allowSyntheticDefaultImports": true,
-		"forceConsistentCasingInFileNames": true,
-		"isolatedModules": true,
-		"module": "ESNext",
-		"moduleResolution": "Node",
-		"noEmitOnError": true,
-		"noUnusedParameters": true,
-		"pretty": true,
-		"resolveJsonModule": true,
-		"skipLibCheck": true,
-		"strict": true,
-		"target": "ESNext",
-		"useDefineForClassFields": false
-	},
-	"include": [
-    "git_src/typings/**/*.d.ts", 
-    "git_src/src", 
-    "git_src/cli",
-    "git_src/browser", 
-    "git_src/rollup.config.ts"
+{ "compilerOptions": {
+	"composite": true,
+	"declarations": true,
+	"outDir": "."
+     	"allowSyntheticDefaultImports": true,
+	"forceConsistentCasingInFileNames": true,
+	"isolatedModules": true,
+	"module": "ESNext",
+	"moduleResolution": "Node",
+	"noEmitOnError": true,
+	"noUnusedParameters": true,
+	"pretty": true,
+	"resolveJsonModule": true,
+	"skipLibCheck": true,
+	"strict": true,
+	"target": "ESNext",
+      	"useDefineForClassFields": false
+  }, "include": [
+	"git_src/typings/**/*.d.ts", 
+	"git_src/src", 
+	"git_src/cli",
+	"git_src/browser", 
+	"git_src/rollup.config.ts"
     //"git_src/plugins/**/*"
-  ],
-	"exclude": ["git_src/dist", "git_src/node_modules", "git_src/test/typescript"]
+  ], "exclude": [
+	"git_src/dist",
+	"git_src/node_modules",
+	"git_src/test/typescript"
+  ]
 }
